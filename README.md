@@ -15,5 +15,5 @@ Ce projet est un calculateur d'âge créé avec HTML, CSS et JavaScript. Il perm
 ## Utilisation : 
 
 * Sélectionnez votre date de naissance dans le champ dédié.
-* Appuyez sur le bouton "Calculer" pour obtenir votre âge.
+* Appuyez sur le bouton "calculate Age" pour obtenir votre âge.
 * Le résultat s'affiche sous forme d'années, de mois et de jours.
