@@ -1,6 +1,6 @@
 # age-calculator 
 
-## Desceiption : 
+## Description : 
 
 Ce projet est un calculateur d'âge créé avec HTML, CSS et JavaScript. Il permet aux utilisateurs de calculer leur âge en fonction de leur date de naissance.
 
