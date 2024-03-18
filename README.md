@@ -1,19 +1,21 @@
 # age-calculator 
+This project is an age calculator created with HTML, CSS, and JavaScript. It allows users to calculate their age based on their date of birth.
 
-## Description : 
+# Features
+1. The calculateAge() function retrieves the user's date of birth from an HTML element with the ID 'birthdate'.
+2. It checks if a date of birth has been selected. If not, it displays an alert and stops execution.
+3. Then, it retrieves the current date.
+4. The date of birth is converted into a Date object.
+5. The age is calculated by subtracting the birth year from the current year, then the months and days are also calculated.
+6. There is a check for leap years, adjusting the age if the birth date falls after the current date in the same year.
+7. Finally, the result is displayed in an HTML element with the ID 'result'.
 
-Ce projet est un calculateur d'âge créé avec HTML, CSS et JavaScript. Il permet aux utilisateurs de calculer leur âge en fonction de leur date de naissance.
+# Usage:
+* Select your date of birth in the dedicated field.
+* Press the "calculate Age" button to get your age.
+* The result is displayed in years, months, and days.
 
-1. La fonction calculateAge() récupère la date de naissance de l'utilisateur à partir d'un élément HTML avec l'ID 'birthdate'.
-2. Elle vérifie si une date de naissance a été sélectionnée. Si ce n'est pas le cas, elle affiche une alerte et arrête l'exécution.
-3. Ensuite, elle récupère la date actuelle.
-4. La date de naissance est convertie en objet Date.
-5. L'âge est calculé en soustrayant l'année de naissance de l'année actuelle, puis les mois et les jours sont également calculés.
-6. Il y a une vérification pour les années bissextiles, ajustant l'âge si la date de naissance tombe après la date actuelle dans la même année.
-7. Enfin, le résultat est affiché dans un élément HTML avec l'ID 'result'.
-
-## Utilisation : 
-
-* Sélectionnez votre date de naissance dans le champ dédié.
-* Appuyez sur le bouton "calculate Age" pour obtenir votre âge.
-* Le résultat s'affiche sous forme d'années, de mois et de jours.
+# Author
+* Developed by Mouhamed Fall
+* Email : mouhamedfall056@gmail.com
+* Github : [@fallcoder](https://github.com/fallcoder)
