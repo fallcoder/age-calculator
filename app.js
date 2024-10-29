@@ -29,7 +29,7 @@ function calculateAge() {
     // checck for leap year
     if(
         birthDate.getMonth() > today.getMonth() || 
-        (birthDate.getMonth() === today.getMonth && birthDate.getDate() > today.getDay())
+        (birthDate.getMonth() === today.getMonth() && birthDate.getDate() > today.getDate())
     ) 
     {
         ageYear--;
