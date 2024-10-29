@@ -3,11 +3,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("image/birth.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
+    background: linear-gradient(#95a8e2, #003366);
     height: 100vh;
     color: #333;
     font-family: 'Arial', Helvetica, sans-serif;
@@ -85,11 +81,8 @@ p {
 }
 
 @media (max-width: 480px) {
-    body {
-        background-size: cover;
-    }
-
     .container {
+        width: 90%;
         padding: 15px;
     }
 
@@ -98,6 +91,7 @@ p {
     }
 
     input, button {
+        max-width: 100%;
         font-size: 14px;
         padding: 8px;
     }
