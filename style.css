@@ -67,3 +67,41 @@ p {
     margin-top: 20px;
     color: #333;
 }
+
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    label, input, button {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        width: 95%;
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    label, input, button {
+        font-size: 12px;
+    }
+
+    button {
+        padding: 8px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+}
